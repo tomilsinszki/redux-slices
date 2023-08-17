@@ -5,7 +5,7 @@ const Counter = () => {
     const counter = useSelector((state : any) => state.counter.value);
     const dispatch = useDispatch();
 
-    console.log('count changed!');
+    console.log('NUMBER changed!');
 
     return (
         <main>
