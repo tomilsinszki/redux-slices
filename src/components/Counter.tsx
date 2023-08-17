@@ -10,8 +10,8 @@ const Counter = () => {
             <h2>Redux Counter</h2>
             <div style={{marginBottom: '30px'}}>{counter}</div>
             <div>
-                <button onClick={() => dispatch(counterSlice.actions.increment())}>Increase</button>
                 <button onClick={() => dispatch(counterSlice.actions.decrement())}>Decrease</button>
+                <button onClick={() => dispatch(counterSlice.actions.increment())}>Increase</button>
             </div>
         </main>
     );
