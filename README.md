@@ -2,7 +2,8 @@
 
 `npx create-react-app redux-slices --template typescript`
 
-Installing Redux Toolkit:
+`npm install react-redux`
+
 `npm install @reduxjs/toolkit`
 
 ## Running the project
